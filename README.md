@@ -1,6 +1,4 @@
----
-layout: none
----
+
 
 <html lang="fr">
 <head>
