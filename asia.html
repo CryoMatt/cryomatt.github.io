@@ -566,6 +566,109 @@ section.card,
   }
 }
 
+
+/* HARD RESET Annual Results exact order */
+.results-group{
+  margin-top:22px !important;
+}
+
+.results-title{
+  font-size:15px !important;
+  font-weight:700 !important;
+  color:#000000 !important;
+  letter-spacing:0.4px !important;
+  margin-bottom:8px !important;
+}
+
+.results-line{
+  width:100% !important;
+  height:4px !important;
+  background:#000000 !important;
+  border-radius:3px !important;
+  margin-bottom:14px !important;
+}
+
+.results-kpis{
+  display:grid !important;
+  grid-template-columns:1fr 1fr !important;
+  gap:12px !important;
+  margin-bottom:16px !important;
+}
+
+.results-kpis .kpi{
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:space-between !important;
+  min-height:118px !important;
+}
+
+.results-kpis .kpi span{
+  font-weight:700 !important;
+  color:#000000 !important;
+  min-height:auto !important;
+}
+
+.bars{
+  display:block !important;
+  margin:0 0 18px 0 !important;
+}
+
+.bar-card{
+  width:100% !important;
+  background:#ffffff !important;
+}
+
+.graph-main-title{
+  font-weight:700 !important;
+  color:#000000 !important;
+  text-transform:uppercase !important;
+}
+
+.graph-label{
+  font-size:12px !important;
+  font-weight:700 !important;
+  color:#000000 !important;
+  margin:10px 0 4px 0 !important;
+}
+
+.graph-value{
+  font-weight:400 !important;
+  color:#4b5563 !important;
+  margin-left:8px !important;
+}
+
+.classic-bar{
+  background:#2563eb !important;
+}
+
+.fusion-bar{
+  background:#059669 !important;
+}
+
+@media (max-width:640px){
+  .results-kpis{
+    grid-template-columns:1fr !important;
+  }
+
+  .results-title{
+    font-size:14px !important;
+  }
+
+  .results-line{
+    height:3px !important;
+  }
+
+  .results-kpis .kpi{
+    min-height:auto !important;
+  }
+
+  .graph-value{
+    display:block !important;
+    margin-left:0 !important;
+    margin-top:2px !important;
+  }
+}
+
 </style>
 
 </head>
@@ -692,33 +795,47 @@ Electricity price source: Eurostat / EIA / GlobalPetrolPrices + national referen
       <main class="card">
         <h2>Annual Results</h2>
 
-        <div class="kpi-sections">
-          <div class="kpi-section-title">COST</div>
-          <div class="kpi-section-title">CARBON FOOTPRINT</div>
-        </div>
+        <div class="results-group">
+          <div class="results-title">COST</div>
+          <div class="results-line"></div>
 
-        <div class="kpis">
-          <div class="kpi"><span>Annual cost saving (%)</span><b id="savingPricePercent">-</b></div>
-          <div class="kpi"><span>Annual saving for Fusion capacity (31200 vials)</span><b id="savingTotalPrice">-</b></div>
-          <div class="kpi"><span>Annual carbon reduction (%)</span><b id="savingCo2Percent">-</b></div>
-          <div class="kpi"><span>Annual CO₂ avoided on Fusion capacity (31200 vials)</span><b id="savingTotalCo2">-</b></div>
-        </div>
-
-        <div class="bars">
-          <div>
-            <div class="bar-title"><span class="graph-main-title">COST PER YEAR FOR 31200 VIALS</span></div>
-            <div class="graph-label">Conventional freezer <span class="graph-value" id="priceClassicGraphValue"></span></div>
-        <div class="bar-bg"><div class="bar-fill classic-bar" id="priceClassicBar"></div></div>
-            <div class="graph-label fusion-label">MVE Fusion <span class="graph-value" id="priceFusionGraphValue"></span></div>
-        <div class="bar-bg" style="margin-top:7px"><div class="bar-fill fusion-bar" id="priceFusionBar"></div></div>
+          <div class="results-kpis">
+            <div class="kpi"><span>Annual cost saving (%)</span><b id="savingPricePercent">-</b></div>
+            <div class="kpi"><span>Annual saving for Fusion capacity (31200 vials)</span><b id="savingTotalPrice">-</b></div>
           </div>
 
-          <div>
-            <div class="bar-title"><span class="graph-main-title">CARBON PER YEAR FOR 31200 VIALS</span></div>
-            <div class="graph-label">Conventional freezer <span class="graph-value" id="co2ClassicGraphValue"></span></div>
-        <div class="bar-bg"><div class="bar-fill classic-bar" id="co2ClassicBar"></div></div>
-            <div class="graph-label fusion-label">MVE Fusion <span class="graph-value" id="co2FusionGraphValue"></span></div>
-        <div class="bar-bg" style="margin-top:7px"><div class="bar-fill fusion-bar" id="co2FusionBar"></div></div>
+          <div class="bars">
+            <div class="bar-card">
+              <div class="bar-title"><span class="graph-main-title">COST PER YEAR FOR 31200 VIALS</span></div>
+
+              <div class="graph-label">Conventional freezer <span class="graph-value" id="priceClassicGraphValue"></span></div>
+              <div class="bar-bg"><div class="bar-fill classic-bar" id="priceClassicBar"></div></div>
+
+              <div class="graph-label fusion-label">MVE Fusion <span class="graph-value" id="priceFusionGraphValue"></span></div>
+              <div class="bar-bg"><div class="bar-fill fusion-bar" id="priceFusionBar"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-group">
+          <div class="results-title">CARBON FOOTPRINT</div>
+          <div class="results-line"></div>
+
+          <div class="results-kpis">
+            <div class="kpi"><span>Annual carbon reduction (%)</span><b id="savingCo2Percent">-</b></div>
+            <div class="kpi"><span>Annual CO₂ avoided on Fusion capacity (31200 vials)</span><b id="savingTotalCo2">-</b></div>
+          </div>
+
+          <div class="bars">
+            <div class="bar-card">
+              <div class="bar-title"><span class="graph-main-title">CARBON PER YEAR FOR 31200 VIALS</span></div>
+
+              <div class="graph-label">Conventional freezer <span class="graph-value" id="co2ClassicGraphValue"></span></div>
+              <div class="bar-bg"><div class="bar-fill classic-bar" id="co2ClassicBar"></div></div>
+
+              <div class="graph-label fusion-label">MVE Fusion <span class="graph-value" id="co2FusionGraphValue"></span></div>
+              <div class="bar-bg"><div class="bar-fill fusion-bar" id="co2FusionBar"></div></div>
+            </div>
           </div>
         </div>
 
@@ -736,7 +853,7 @@ Electricity price source: Eurostat / EIA / GlobalPetrolPrices + national referen
             <tr><td>Electricity / Year</td><td id="kwhClassic"></td><td id="kwhFusion"></td><td id="kwhDiff"></td></tr>
             <tr><td>Annual Cost</td><td class="classic" id="priceClassic"></td><td class="fusion" id="priceFusion"></td><td id="priceDiff"></td></tr>
             <tr><td>Total Vials 2 ml Capacity</td><td id="vialsClassic"></td><td id="vialsFusion"></td><td id="vialsDiff"></td></tr>
-            <tr><td>COST PER YEAR FOR 31200 VIALS 2 ml</td><td class="classic" id="priceVialClassic"></td><td class="fusion" id="priceVialFusion"></td><td id="priceVialDiff"></td></tr>
+            <tr><td>Cost per Vial 2 ml</td><td class="classic" id="priceVialClassic"></td><td class="fusion" id="priceVialFusion"></td><td id="priceVialDiff"></td></tr>
             <tr><td>COST PER YEAR FOR 31200 VIALS</td><td class="classic" id="price31200Classic"></td><td class="fusion" id="price31200Fusion"></td><td id="price31200Diff"></td></tr>
             <tr><td>Annual Carbon Footprint</td><td class="classic" id="co2Classic"></td><td class="fusion" id="co2Fusion"></td><td id="co2Diff"></td></tr>
             <tr><td>Carbon Footprint per Vial 2 ml (gCO₂)</td><td class="classic" id="co2VialClassic"></td><td class="fusion" id="co2VialFusion"></td><td id="co2VialDiff"></td></tr>
