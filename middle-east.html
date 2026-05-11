@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cryomatt Carbon Comparator V10 - Middle East</title>
+  <style>
+    :root { --bg:#f6f8fb; --card:#ffffff; --ink:#172033; --muted:#667085; --blue:#2563eb; --green:#059669; --orange:#ea580c; --line:#e5e7eb; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--ink); background:linear-gradient(180deg,#eef5ff,var(--bg)); }
+    .wrap { max-width:1120px; margin:0 auto; padding:32px 18px; }
+    header { margin-bottom:22px; }
+    h1 { margin:0 0 8px; font-size:30px; }
+    .sub { color:var(--muted); font-size:15px; }
+    .grid { display:grid; grid-template-columns: 360px 1fr; gap:18px; align-items:start; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; box-shadow:0 8px 25px rgba(15,23,42,.06); }
+    h2 { margin:0 0 14px; font-size:19px; }
+    label { display:block; font-size:13px; color:var(--muted); margin:12px 0 5px; }
+    input, select { width:100%; padding:10px 12px; border:1px solid #d0d5dd; border-radius:10px; font-size:15px; background:#fff; }
+    input:focus, select:focus { outline:2px solid #bfdbfe; border-color:var(--blue); }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .kpis { display:grid; grid-template-columns: repeat(4, 1fr); gap:12px; margin-bottom:16px; }
+    .kpi { border-radius:15px; padding:15px; border:1px solid var(--line); background:#fafafa; }
+    .kpi b { display:block; font-size:22px; margin-top:8px; }
+    .kpi span { color:var(--muted); font-size:13px; }
+    .positive { color:var(--green); } .negative { color:#dc2626; }
+    table { width:100%; border-collapse:collapse; overflow:hidden; border-radius:12px; }
+    th, td { padding:12px 10px; border-bottom:1px solid var(--line); text-align:right; }
+    th:first-child, td:first-child { text-align:left; }
+    th { background:#f1f5f9; color:#344054; font-size:13px; }
+    td { font-size:14px; }
+    .classic { color:var(--blue); font-weight:700; }
+    .fusion { color:var(--green); font-weight:700; }
+    .bars { margin-top:18px; display:grid; gap:13px; }
+    .bar-title { display:flex; justify-content:space-between; color:var(--muted); font-size:13px; margin-bottom:5px; }
+    .bar-bg { background:#e5e7eb; border-radius:99px; overflow:hidden; height:14px; }
+    .bar-fill { height:100%; border-radius:99px; transition:width .25s ease; }
+    #priceClassicBar { background:var(--blue); } #priceFusionBar { background:var(--green); }
+    #co2ClassicBar { background:var(--orange); } #co2FusionBar { background:var(--green); }
+    .note { margin-top:14px; color:var(--muted); font-size:12px; line-height:1.45; }
+    @media (max-width:900px){ .grid{grid-template-columns:1fr;} .kpis{grid-template-columns:1fr 1fr;} }
+    @media (max-width:560px){ .kpis,.two{grid-template-columns:1fr;} h1{font-size:24px;} }
+  
+    /* V26: Align two-column input fields with long labels */
+    .two > div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .two > div > label {
+      min-height: 34px;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    @media (max-width:560px){
+      .two > div > label {
+        min-height: auto;
+      }
+    }
+
+  
+    /* V26 compact spacing */
+    label{
+      margin-bottom:4px !important;
+    }
+
+    input, select{
+      margin-top:0 !important;
+    }
+
+    .two{
+      gap:10px !important;
+    }
+
+
+    /* V26 subtitle spacing */
+    h3 + .two{
+      margin-top:0 !important;
+      padding-top:0 !important;
+    }
+
+    h3{
+      display:block;
+    }
+
+    h3 + label{
+      margin-top:2px !important;
+    }
+
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Cost & Carbon Footprint Comparison per Vial - Middle East</h1>
+      <div style="margin:12px 0 6px"><a href="./index.html" style="display:inline-block;background:#172033;color:white;text-decoration:none;border-radius:999px;padding:9px 13px;font-size:13px">← World map</a> <a href="./excel/middle-east_v10_recalibrated.xlsx" style="display:inline-block;background:#2563eb;color:white;text-decoration:none;border-radius:999px;padding:9px 13px;font-size:13px">Download V10 Excel</a></div>
+      <div class="sub">Moyen-Orient / Middle East - V26 recalibrated 2025 electricity CO₂ factors. Internal reference currency: EUR/kWh.</div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Input Data</h2>
+
+        <label>Country / Pays</label>
+        <select id="country"></select>
+
+        <label>Currency / Devise</label>
+        <select id="currency">
+          <option value="EUR" selected>€ Euro</option>
+          <option value="USD">$ US Dollar</option>
+          <option value="LOCAL">Local currency</option>
+        </select>
+
+        <h2 style="margin-top:22px">INPUT ENERGY DATA</h2>
+
+        <label id="ln2PriceLabel">LN₂ Price / Liter</label>
+        <input id="ln2Price" type="number" step="0.01" value="1">
+
+        <p class="note" id="countryInfo" style="display:none"></p>
+
+        <label>Conventional Freezer Evaporation (L/day)</label>
+        <input id="staticClassic" type="number" step="0.1" value="14">
+
+        <label>Fusion Electricity Consumption (kWh/year)</label>
+        <input id="fusionKwhYear" type="number" step="1" value="8760">
+
+        <label>Fusion LN₂ Usage (L/year)</label>
+        <input id="fusionLn2Year" type="number" step="1" value="0">
+
+        <h2 style="margin-top:22px">STORAGE CAPACITY</h2>
+
+        <p class="note">Capacity is calculated in 2 ml vials. Standard boxes = 100 vials. Small boxes = 25 vials.</p>
+
+        <h3 style="margin-top:10px;margin-bottom:0px;padding-bottom:0px;color:#172033;font-size:15px;font-weight:600;line-height:1;">Conventional freezer</h3>
+
+        <div class="two">
+          <div>
+            <label>Standard Racks</label>
+            <input id="classicStandardRacks" type="number" step="1" value="20">
+          </div>
+          <div>
+            <label>Small Racks</label>
+            <input id="classicSmallRacks" type="number" step="1" value="16">
+          </div>
+        </div>
+
+        <label>Boxes per Rack</label>
+        <input id="classicBoxesPerRack" type="number" step="1" value="13">
+
+        <h3 style="margin-top:10px;margin-bottom:0px;padding-bottom:0px;color:#172033;font-size:15px;font-weight:600;line-height:1;">Fusion</h3>
+
+        <div class="two">
+          <div>
+            <label>Standard Racks</label>
+            <input id="fusionStandardRacks" type="number" step="1" value="20">
+          </div>
+          <div>
+            <label>Small Racks</label>
+            <input id="fusionSmallRacks" type="number" step="1" value="16">
+          </div>
+        </div>
+
+        <label>Boxes per Rack</label>
+        <input id="fusionBoxesPerRack" type="number" step="1" value="13">
+
+        <h2 style="margin-top:22px">DATABASE & CLIENT VALUES</h2>
+
+        <p class="note">Database values are loaded automatically from the selected country. Client override fields are optional.</p>
+
+        <label>Database LN₂ Carbon Footprint kgCO₂/L</label>
+        <input id="ln2Co2" type="number" step="0.001" value="0.259" readonly>
+
+        <label>Client LN₂ Carbon Footprint Override kgCO₂/L</label>
+        <input id="clientLn2Co2" type="number" step="0.001" placeholder="Leave empty to use database">
+
+        <label id="kwhPriceLabel">Database Electricity Price €/kWh</label>
+        <input id="kwhPrice" type="number" step="0.001" value="0.2" readonly>
+
+        <label>Client Electricity Price Override /kWh</label>
+        <input id="clientKwhPrice" type="number" step="0.001" placeholder="Leave empty to use database">
+
+        <label>Database Electricity Carbon Footprint kgCO₂/kWh</label>
+        <input id="kwhCo2" type="number" step="0.001" value="0.020" readonly>
+
+        <label>Client Electricity Carbon Footprint Override kgCO₂/kWh</label>
+        <input id="clientKwhCo2" type="number" step="0.001" placeholder="Leave empty to use database">
+
+        <p class="note" id="kwhCo2Info" style="margin-top:6px"></p>
+
+        <p class="note">Formulas: conventional = L/day × 365 × LN₂ price or CO₂. Fusion = kWh/year × electricity price + LN₂ usage. Capacity = (standard racks × boxes/rack × 100 vials) + (small racks × boxes/rack × 25 vials). Savings are calculated per vial and then multiplied by Fusion total vials. Cost per vial is displayed with extra decimals because values are small.</p>
+      </section>
+
+      <main class="card">
+        <h2>Annual Results</h2>
+        <div class="kpis">
+          <div class="kpi"><span>Cost Saving / Vial</span><b id="savingPrice">-</b></div>
+          <div class="kpi"><span>CO₂ Reduction / Vial</span><b id="savingCo2">-</b></div>
+          <div class="kpi"><span>Annual Saving on Fusion Vials</span><b id="savingTotalPrice">-</b></div>
+          <div class="kpi"><span>Annual CO₂ Avoided on Fusion Vials on Fusion Vials</span><b id="savingTotalCo2">-</b></div>
+        </div>
+
+        <table>
+          <thead><tr><th>Indicator</th><th>Conventional Tank</th><th>Fusion</th><th>Fusion Difference</th></tr></thead>
+          <tbody>
+            <tr><td>LN₂ Consumed / Year</td><td id="ln2Classic"></td><td id="ln2Fusion"></td><td id="ln2Diff"></td></tr>
+            <tr><td>Electricity / Year</td><td id="kwhClassic"></td><td id="kwhFusion"></td><td id="kwhDiff"></td></tr>
+            <tr><td>Annual Cost</td><td class="classic" id="priceClassic"></td><td class="fusion" id="priceFusion"></td><td id="priceDiff"></td></tr>
+            <tr><td>Total Vials 2 ml Capacity</td><td id="vialsClassic"></td><td id="vialsFusion"></td><td id="vialsDiff"></td></tr>
+            <tr><td>Cost per Vial 2 ml</td><td class="classic" id="priceVialClassic"></td><td class="fusion" id="priceVialFusion"></td><td id="priceVialDiff"></td></tr>
+            <tr><td>Annual Carbon Footprint</td><td class="classic" id="co2Classic"></td><td class="fusion" id="co2Fusion"></td><td id="co2Diff"></td></tr>
+            <tr><td>Carbon Footprint per Vial 2 ml (gCO₂)</td><td class="classic" id="co2VialClassic"></td><td class="fusion" id="co2VialFusion"></td><td id="co2VialDiff"></td></tr>
+          </tbody>
+        </table>
+
+        <div class="bars">
+          <div><div class="bar-title"><span>Cost per Vial</span><span id="priceMax"></span></div><div class="bar-bg"><div id="priceClassicBar" class="bar-fill"></div></div><div class="bar-bg" style="margin-top:5px"><div id="priceFusionBar" class="bar-fill"></div></div></div>
+          <div><div class="bar-title"><span>gCO₂ per Vial</span><span id="co2Max"></span></div><div class="bar-bg"><div id="co2ClassicBar" class="bar-fill"></div></div><div class="bar-bg" style="margin-top:5px"><div id="co2FusionBar" class="bar-fill"></div></div></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+<script>
+const COUNTRY_PRICES = [
+  {
+    "country": "China",
+    "eur": 0.07,
+    "usd": 0.0756,
+    "ln2co2": 0.4,
+    "kwhco2": 0.580,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from Air Liquide methodology + national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "CNY",
+    "localSymbol": "¥",
+    "localRate": 7.8
+  },
+  {
+    "country": "Japan",
+    "eur": 0.24,
+    "usd": 0.2592,
+    "ln2co2": 0.32,
+    "kwhco2": 0.430,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "JPY",
+    "localSymbol": "¥",
+    "localRate": 170
+  },
+  {
+    "country": "South Korea",
+    "eur": 0.1,
+    "usd": 0.108,
+    "ln2co2": 0.34,
+    "kwhco2": 0.460,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "KRW",
+    "localSymbol": "₩",
+    "localRate": 1470
+  },
+  {
+    "country": "India",
+    "eur": 0.07,
+    "usd": 0.0756,
+    "ln2co2": 0.42,
+    "kwhco2": 0.700,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "INR",
+    "localSymbol": "₹",
+    "localRate": 90
+  },
+  {
+    "country": "Indonesia",
+    "eur": 0.09,
+    "usd": 0.0972,
+    "ln2co2": 0.4,
+    "kwhco2": 0.650,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Malaysia",
+    "eur": 0.1,
+    "usd": 0.108,
+    "ln2co2": 0.38,
+    "kwhco2": 0.550,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Singapore",
+    "eur": 0.2,
+    "usd": 0.216,
+    "ln2co2": 0.31,
+    "kwhco2": 0.390,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "SGD",
+    "localSymbol": "S$",
+    "localRate": 1.45
+  },
+  {
+    "country": "Thailand",
+    "eur": 0.11,
+    "usd": 0.1188,
+    "ln2co2": 0.36,
+    "kwhco2": 0.500,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Vietnam",
+    "eur": 0.07,
+    "usd": 0.0756,
+    "ln2co2": 0.37,
+    "kwhco2": 0.520,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Philippines",
+    "eur": 0.18,
+    "usd": 0.1944,
+    "ln2co2": 0.39,
+    "kwhco2": 0.580,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Taiwan",
+    "eur": 0.11,
+    "usd": 0.1188,
+    "ln2co2": 0.35,
+    "kwhco2": 0.490,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Hong Kong",
+    "eur": 0.17,
+    "usd": 0.1836,
+    "ln2co2": 0.34,
+    "kwhco2": 0.450,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Pakistan",
+    "eur": 0.08,
+    "usd": 0.0864,
+    "ln2co2": 0.34,
+    "kwhco2": 0.430,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Bangladesh",
+    "eur": 0.08,
+    "usd": 0.0864,
+    "ln2co2": 0.39,
+    "kwhco2": 0.580,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Sri Lanka",
+    "eur": 0.09,
+    "usd": 0.0972,
+    "ln2co2": 0.3,
+    "kwhco2": 0.300,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Nepal",
+    "eur": 0.07,
+    "usd": 0.0756,
+    "ln2co2": 0.22,
+    "kwhco2": 0.030,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Kazakhstan",
+    "eur": 0.06,
+    "usd": 0.0648,
+    "ln2co2": 0.43,
+    "kwhco2": 0.750,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Uzbekistan",
+    "eur": 0.05,
+    "usd": 0.054,
+    "ln2co2": 0.35,
+    "kwhco2": 0.450,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Saudi Arabia",
+    "eur": 0.05,
+    "usd": 0.054,
+    "ln2co2": 0.4,
+    "kwhco2": 0.650,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "United Arab Emirates",
+    "eur": 0.07,
+    "usd": 0.0756,
+    "ln2co2": 0.33,
+    "kwhco2": 0.400,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "AED",
+    "localSymbol": "د.إ",
+    "localRate": 3.97
+  },
+  {
+    "country": "Qatar",
+    "eur": 0.04,
+    "usd": 0.0432,
+    "ln2co2": 0.38,
+    "kwhco2": 0.550,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Israel",
+    "eur": 0.15,
+    "usd": 0.162,
+    "ln2co2": 0.36,
+    "kwhco2": 0.500,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "LOCAL",
+    "localSymbol": "",
+    "localRate": 1.0
+  },
+  {
+    "country": "Turkey",
+    "eur": 0.07,
+    "usd": 0.0756,
+    "ln2co2": 0.34,
+    "kwhco2": 0.430,
+    "co2source": "2025 electricity mix carbon intensity; RTE for France, Ember/OWID 2025 for countries, EIA/state references for US",
+    "ln2source": "Estimated from national grid mix",
+    "note": "V10 recalibrated price database; internal currency EUR/kWh",
+    "source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references",
+    "localCode": "TRY",
+    "localSymbol": "₺",
+    "localRate": 36
+  }
+];
+function val(id){ return parseFloat(document.getElementById(id).value) || 0; }
+function optionalVal(id){
+  const raw = document.getElementById(id).value;
+  if(raw === '' || raw === null || raw === undefined) return null;
+  const n = parseFloat(raw);
+  return isNaN(n) ? null : n;
+}
+function currency(){ return document.getElementById('currency').value || 'EUR'; }
+function symbol(){
+  const cur = currency();
+  if(cur === 'USD') return '$';
+  if(cur === 'LOCAL') return selectedCountry().localSymbol || selectedCountry().localCode || '';
+  return '€';
+}
+function formatCurrencyAmount(n){
+  const cur = currency();
+  if(cur === 'LOCAL'){
+    const c = selectedCountry();
+    const s = c.localSymbol || c.localCode || '';
+    return n.toLocaleString('fr-FR',{maximumFractionDigits:2,minimumFractionDigits:2}) + ' ' + s;
+  }
+  return n.toLocaleString('fr-FR',{style:'currency',currency:cur,maximumFractionDigits:2});
+}
+function selectedCountry(){ return COUNTRY_PRICES.find(c => c.country === document.getElementById('country').value) || COUNTRY_PRICES[0]; }
+function updateCountryPrice(){
+  const c = selectedCountry();
+  const price = currency()==='USD' ? c.usd : (currency()==='LOCAL' ? c.eur * (c.localRate || 1) : c.eur);
+  document.getElementById('kwhPrice').value = price.toFixed(2);
+  document.getElementById('ln2Co2').value = c.ln2co2.toFixed(3);
+  document.getElementById('kwhCo2').value = c.kwhco2.toFixed(3);
+  const countryInfoEl = document.getElementById('countryInfo');
+  if(countryInfoEl) countryInfoEl.textContent = '';
+
+  const kwhCo2InfoEl = document.getElementById('kwhCo2Info');
+  if(kwhCo2InfoEl) kwhCo2InfoEl.textContent =
+    'Electricity CO₂ source : ' + c.co2source +
+    ' | Value : ' + c.kwhco2.toFixed(3) + ' kgCO₂/kWh';
+}
+function money(n){ return formatCurrencyAmount(n); }
+function moneySmall(n){
+  const cur = currency();
+  if(cur === 'LOCAL'){
+    const c = selectedCountry();
+    const s = c.localSymbol || c.localCode || '';
+    return n.toLocaleString('fr-FR',{maximumFractionDigits:6,minimumFractionDigits:4}) + ' ' + s;
+  }
+  return n.toLocaleString('fr-FR',{style:'currency',currency:cur,minimumFractionDigits:4,maximumFractionDigits:6});
+}
+function num(n,u='',d=2){ return n.toLocaleString('fr-FR',{maximumFractionDigits:d,minimumFractionDigits:d}) + u; }
+function pct(part,max){ return max>0 ? Math.max(2, Math.min(100, part/max*100)) + '%' : '0%'; }
+function set(id, text, cls=''){ const e=document.getElementById(id); e.textContent=text; e.className=cls; }
+function diffText(v, unit, isMoney=false){ const cls = v<=0 ? 'positive' : 'negative'; const sign = v>0 ? '+' : ''; return {txt: sign + (isMoney ? money(v) : num(v,unit)), cls}; }
+function diffTextMoneySmall(v){
+  const cls = v<=0 ? 'positive' : 'negative';
+  const sign = v>0 ? '+' : '';
+  return {txt: sign + moneySmall(v), cls};
+}
+function calc(){
+  updateCountryPrice();
+
+  document.getElementById('ln2PriceLabel').textContent = 'LN₂ Price ' + symbol() + '/L';
+  document.getElementById('kwhPriceLabel').textContent = 'Database Electricity Price ' + symbol() + '/kWh';
+
+  const clientKwhPriceInput = document.getElementById('clientKwhPrice');
+  if(clientKwhPriceInput) clientKwhPriceInput.placeholder = 'Leave empty to use database (' + symbol() + '/kWh)';
+
+  const ln2Price = val('ln2Price');
+
+  const dbLn2Co2 = val('ln2Co2');
+  const dbKwhPrice = val('kwhPrice');
+  const dbKwhCo2 = val('kwhCo2');
+
+  const clientLn2Co2 = optionalVal('clientLn2Co2');
+  const clientKwhPrice = optionalVal('clientKwhPrice');
+  const clientKwhCo2 = optionalVal('clientKwhCo2');
+
+  const ln2Co2 = clientLn2Co2 !== null ? clientLn2Co2 : dbLn2Co2;
+  const kwhPrice = clientKwhPrice !== null ? clientKwhPrice : dbKwhPrice;
+  const kwhCo2 = clientKwhCo2 !== null ? clientKwhCo2 : dbKwhCo2;
+
+  const classicStandardRacks = val('classicStandardRacks');
+  const classicSmallRacks = val('classicSmallRacks');
+  const classicBoxesPerRack = val('classicBoxesPerRack');
+
+  const fusionStandardRacks = val('fusionStandardRacks');
+  const fusionSmallRacks = val('fusionSmallRacks');
+  const fusionBoxesPerRack = val('fusionBoxesPerRack');
+
+  const vialsClassic = Math.max(1,
+    (classicStandardRacks * classicBoxesPerRack * 100) +
+    (classicSmallRacks * classicBoxesPerRack * 25)
+  );
+
+  const vialsFusion = Math.max(1,
+    (fusionStandardRacks * fusionBoxesPerRack * 100) +
+    (fusionSmallRacks * fusionBoxesPerRack * 25)
+  );
+
+  const staticClassic = val('staticClassic');
+  const fusionKwhYear = val('fusionKwhYear');
+  const fusionLn2Year = val('fusionLn2Year');
+
+  const ln2Classic = staticClassic * 365;
+  const ln2Fusion = fusionLn2Year;
+
+  const kwhClassic = 0;
+  const kwhFusion = fusionKwhYear;
+
+  const priceClassic = ln2Classic * ln2Price;
+  const priceFusion = (kwhFusion * kwhPrice) + (ln2Fusion * ln2Price);
+
+  const co2Classic = ln2Classic * ln2Co2;
+  const co2Fusion = (kwhFusion * kwhCo2) + (ln2Fusion * ln2Co2);
+
+  const priceVialClassic = priceClassic / vialsClassic;
+  const priceVialFusion = priceFusion / vialsFusion;
+
+  const co2VialClassicKg = co2Classic / vialsClassic;
+  const co2VialFusionKg = co2Fusion / vialsFusion;
+
+  const co2VialClassicG = co2VialClassicKg * 1000;
+  const co2VialFusionG = co2VialFusionKg * 1000;
+
+  set('ln2Classic', num(ln2Classic,' L',0));
+  set('ln2Fusion', num(ln2Fusion,' L',0));
+  set('ln2Diff', num(ln2Fusion-ln2Classic,' L',0), ln2Fusion <= ln2Classic ? 'positive' : 'negative');
+
+  set('kwhClassic', num(kwhClassic,' kWh',0));
+  set('kwhFusion', num(kwhFusion,' kWh',0));
+  set('kwhDiff','+'+num(kwhFusion-kwhClassic,' kWh',0),'negative');
+
+  set('priceClassic', money(priceClassic));
+  set('priceFusion', money(priceFusion));
+  let d = diffText(priceFusion-priceClassic,'',true);
+  set('priceDiff', d.txt, d.cls);
+
+  set('vialsClassic', num(vialsClassic,' vials',0));
+  set('vialsFusion', num(vialsFusion,' vials',0));
+  set('vialsDiff', num(vialsFusion-vialsClassic,' vials',0), vialsFusion>=vialsClassic?'positive':'negative');
+
+  set('priceVialClassic', moneySmall(priceVialClassic));
+  set('priceVialFusion', moneySmall(priceVialFusion));
+  d = diffTextMoneySmall(priceVialFusion-priceVialClassic);
+  set('priceVialDiff', d.txt, d.cls);
+
+  set('co2Classic', num(co2Classic,' kgCO₂'));
+  set('co2Fusion', num(co2Fusion,' kgCO₂'));
+  d = diffText(co2Fusion-co2Classic,' kgCO₂');
+  set('co2Diff', d.txt, d.cls);
+
+  set('co2VialClassic', num(co2VialClassicG,' gCO₂',2));
+  set('co2VialFusion', num(co2VialFusionG,' gCO₂',2));
+  d = diffText(co2VialFusionG-co2VialClassicG,' gCO₂');
+  set('co2VialDiff', d.txt, d.cls);
+
+  set('savingPrice',
+    moneySmall(priceVialClassic-priceVialFusion),
+    priceVialClassic>=priceVialFusion?'positive':'negative'
+  );
+
+  set('savingCo2',
+    num(co2VialClassicG-co2VialFusionG,' gCO₂',2),
+    co2VialClassicG>=co2VialFusionG?'positive':'negative'
+  );
+
+  const equivalentAnnualPriceSaving = (priceVialClassic - priceVialFusion) * vialsFusion;
+  const equivalentAnnualCo2Saving = (co2VialClassicKg - co2VialFusionKg) * vialsFusion;
+
+  set('savingTotalPrice', money(equivalentAnnualPriceSaving), equivalentAnnualPriceSaving>=0?'positive':'negative');
+  set('savingTotalCo2', num(equivalentAnnualCo2Saving,' kgCO₂'), equivalentAnnualCo2Saving>=0?'positive':'negative');
+
+  const pMax = Math.max(priceVialClassic, priceVialFusion);
+  document.getElementById('priceMax').textContent = 'max ' + moneySmall(pMax);
+  document.getElementById('priceClassicBar').style.width = pct(priceVialClassic,pMax);
+  document.getElementById('priceFusionBar').style.width = pct(priceVialFusion,pMax);
+
+  const cMax = Math.max(co2VialClassicG, co2VialFusionG);
+  document.getElementById('co2Max').textContent = 'max ' + num(cMax,' gCO₂',2);
+  document.getElementById('co2ClassicBar').style.width = pct(co2VialClassicG,cMax);
+  document.getElementById('co2FusionBar').style.width = pct(co2VialFusionG,cMax);
+}
+const countrySelect = document.getElementById('country');
+COUNTRY_PRICES.forEach(c => {
+  const opt = document.createElement('option');
+  opt.value = c.country;
+  opt.textContent = c.country;
+  if (c.country === "China") opt.selected = true;
+  countrySelect.appendChild(opt);
+});
+document.querySelectorAll('input').forEach(i => i.addEventListener('input', calc));
+document.querySelectorAll('select').forEach(s => s.addEventListener('change', calc));
+calc();
+</script>
+</body>
+</html>

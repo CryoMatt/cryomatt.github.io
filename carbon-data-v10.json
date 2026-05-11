@@ -1,0 +1,1508 @@
+{
+  "Europe": [
+    {
+      "Country": "France",
+      "Electricity CO2 (kgCO2/kWh)": 0.05,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.259,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.2,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Germany",
+      "Electricity CO2 (kgCO2/kWh)": 0.38,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.38,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Spain",
+      "Electricity CO2 (kgCO2/kWh)": 0.14,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.24,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Portugal",
+      "Electricity CO2 (kgCO2/kWh)": 0.12,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.24,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Italy",
+      "Electricity CO2 (kgCO2/kWh)": 0.29,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.31,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Belgium",
+      "Electricity CO2 (kgCO2/kWh)": 0.18,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.27,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.33,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Netherlands",
+      "Electricity CO2 (kgCO2/kWh)": 0.32,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.31,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.3,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Luxembourg",
+      "Electricity CO2 (kgCO2/kWh)": 0.2,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.28,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.25,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Switzerland",
+      "Electricity CO2 (kgCO2/kWh)": 0.03,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.22,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Austria",
+      "Electricity CO2 (kgCO2/kWh)": 0.1,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.28,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Poland",
+      "Electricity CO2 (kgCO2/kWh)": 0.65,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.2,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Czech Republic",
+      "Electricity CO2 (kgCO2/kWh)": 0.46,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.25,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Slovakia",
+      "Electricity CO2 (kgCO2/kWh)": 0.12,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Hungary",
+      "Electricity CO2 (kgCO2/kWh)": 0.2,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Romania",
+      "Electricity CO2 (kgCO2/kWh)": 0.24,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Bulgaria",
+      "Electricity CO2 (kgCO2/kWh)": 0.42,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Greece",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Croatia",
+      "Electricity CO2 (kgCO2/kWh)": 0.16,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.27,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.21,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Slovenia",
+      "Electricity CO2 (kgCO2/kWh)": 0.15,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Serbia",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Bosnia and Herzegovina",
+      "Electricity CO2 (kgCO2/kWh)": 0.62,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Montenegro",
+      "Electricity CO2 (kgCO2/kWh)": 0.4,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Albania",
+      "Electricity CO2 (kgCO2/kWh)": 0.05,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "North Macedonia",
+      "Electricity CO2 (kgCO2/kWh)": 0.52,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.37,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Norway",
+      "Electricity CO2 (kgCO2/kWh)": 0.02,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.21,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Sweden",
+      "Electricity CO2 (kgCO2/kWh)": 0.03,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.22,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Finland",
+      "Electricity CO2 (kgCO2/kWh)": 0.08,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Denmark",
+      "Electricity CO2 (kgCO2/kWh)": 0.12,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.25,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.38,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Ireland",
+      "Electricity CO2 (kgCO2/kWh)": 0.32,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.34,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "United Kingdom",
+      "Electricity CO2 (kgCO2/kWh)": 0.22,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.32,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Iceland",
+      "Electricity CO2 (kgCO2/kWh)": 0.01,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.2,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Estonia",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Latvia",
+      "Electricity CO2 (kgCO2/kWh)": 0.11,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.25,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Lithuania",
+      "Electricity CO2 (kgCO2/kWh)": 0.14,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.23,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Ukraine",
+      "Electricity CO2 (kgCO2/kWh)": 0.3,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Belarus",
+      "Electricity CO2 (kgCO2/kWh)": 0.35,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Moldova",
+      "Electricity CO2 (kgCO2/kWh)": 0.48,
+      "Electricity CO2 Source": "RTE / Ember / IEA electricity mix data (2024-2025)",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ],
+  "North America": [
+    {
+      "Country": "USA - Alabama",
+      "Electricity CO2 (kgCO2/kWh)": 0.52,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Alaska",
+      "Electricity CO2 (kgCO2/kWh)": 0.47,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.24,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Arizona",
+      "Electricity CO2 (kgCO2/kWh)": 0.39,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.17,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Arkansas",
+      "Electricity CO2 (kgCO2/kWh)": 0.42,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - California",
+      "Electricity CO2 (kgCO2/kWh)": 0.19,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.29,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Colorado",
+      "Electricity CO2 (kgCO2/kWh)": 0.5,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Connecticut",
+      "Electricity CO2 (kgCO2/kWh)": 0.22,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.27,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.3,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Delaware",
+      "Electricity CO2 (kgCO2/kWh)": 0.44,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Florida",
+      "Electricity CO2 (kgCO2/kWh)": 0.39,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Georgia",
+      "Electricity CO2 (kgCO2/kWh)": 0.37,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.31,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Hawaii",
+      "Electricity CO2 (kgCO2/kWh)": 0.62,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.39,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Idaho",
+      "Electricity CO2 (kgCO2/kWh)": 0.08,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Illinois",
+      "Electricity CO2 (kgCO2/kWh)": 0.22,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.27,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Indiana",
+      "Electricity CO2 (kgCO2/kWh)": 0.63,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Iowa",
+      "Electricity CO2 (kgCO2/kWh)": 0.29,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Kansas",
+      "Electricity CO2 (kgCO2/kWh)": 0.48,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Kentucky",
+      "Electricity CO2 (kgCO2/kWh)": 0.71,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.43,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Louisiana",
+      "Electricity CO2 (kgCO2/kWh)": 0.41,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Maine",
+      "Electricity CO2 (kgCO2/kWh)": 0.1,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.24,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Maryland",
+      "Electricity CO2 (kgCO2/kWh)": 0.33,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Massachusetts",
+      "Electricity CO2 (kgCO2/kWh)": 0.25,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.28,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.31,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Michigan",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Minnesota",
+      "Electricity CO2 (kgCO2/kWh)": 0.28,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Mississippi",
+      "Electricity CO2 (kgCO2/kWh)": 0.49,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Missouri",
+      "Electricity CO2 (kgCO2/kWh)": 0.68,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.42,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Montana",
+      "Electricity CO2 (kgCO2/kWh)": 0.67,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.42,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Nebraska",
+      "Electricity CO2 (kgCO2/kWh)": 0.53,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.37,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Nevada",
+      "Electricity CO2 (kgCO2/kWh)": 0.31,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - New Hampshire",
+      "Electricity CO2 (kgCO2/kWh)": 0.18,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.28,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - New Jersey",
+      "Electricity CO2 (kgCO2/kWh)": 0.24,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.28,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.19,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - New Mexico",
+      "Electricity CO2 (kgCO2/kWh)": 0.58,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - New York",
+      "Electricity CO2 (kgCO2/kWh)": 0.11,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.24,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - North Carolina",
+      "Electricity CO2 (kgCO2/kWh)": 0.35,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.31,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - North Dakota",
+      "Electricity CO2 (kgCO2/kWh)": 0.71,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.43,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Ohio",
+      "Electricity CO2 (kgCO2/kWh)": 0.56,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Oklahoma",
+      "Electricity CO2 (kgCO2/kWh)": 0.44,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Oregon",
+      "Electricity CO2 (kgCO2/kWh)": 0.09,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Pennsylvania",
+      "Electricity CO2 (kgCO2/kWh)": 0.41,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.17,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Rhode Island",
+      "Electricity CO2 (kgCO2/kWh)": 0.27,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.28,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - South Carolina",
+      "Electricity CO2 (kgCO2/kWh)": 0.3,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - South Dakota",
+      "Electricity CO2 (kgCO2/kWh)": 0.22,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.27,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Tennessee",
+      "Electricity CO2 (kgCO2/kWh)": 0.32,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Texas",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Utah",
+      "Electricity CO2 (kgCO2/kWh)": 0.63,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Vermont",
+      "Electricity CO2 (kgCO2/kWh)": 0.03,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.21,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Virginia",
+      "Electricity CO2 (kgCO2/kWh)": 0.31,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.14,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Washington",
+      "Electricity CO2 (kgCO2/kWh)": 0.06,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.22,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - West Virginia",
+      "Electricity CO2 (kgCO2/kWh)": 0.82,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.44,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Wisconsin",
+      "Electricity CO2 (kgCO2/kWh)": 0.47,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Wyoming",
+      "Electricity CO2 (kgCO2/kWh)": 0.86,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.45,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - District of Columbia",
+      "Electricity CO2 (kgCO2/kWh)": 0.2,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "USA - Puerto Rico",
+      "Electricity CO2 (kgCO2/kWh)": 0.64,
+      "Electricity CO2 Source": "EIA / EPA / ElectricityMaps estimated state mix",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + state grid mix",
+      "Electricity Price (€/kWh)": 0.27,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Canada",
+      "Electricity CO2 (kgCO2/kWh)": 0.12,
+      "Electricity CO2 Source": "Ember / OWID / national grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.25,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Mexico",
+      "Electricity CO2 (kgCO2/kWh)": 0.42,
+      "Electricity CO2 Source": "Ember / OWID / national grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.08,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Jamaica",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Ember / OWID / national grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.27,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Bahamas",
+      "Electricity CO2 (kgCO2/kWh)": 0.7,
+      "Electricity CO2 Source": "Ember / OWID / national grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.3,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Costa Rica",
+      "Electricity CO2 (kgCO2/kWh)": 0.03,
+      "Electricity CO2 Source": "Ember / OWID / national grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.17,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Panama",
+      "Electricity CO2 (kgCO2/kWh)": 0.2,
+      "Electricity CO2 Source": "Ember / OWID / national grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.28,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ],
+  "South America": [
+    {
+      "Country": "Argentina",
+      "Electricity CO2 (kgCO2/kWh)": 0.35,
+      "Electricity CO2 Source": "Ember / OWID electricity mix estimate 2024-2025",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.05,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Bolivia",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.08,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Brazil",
+      "Electricity CO2 (kgCO2/kWh)": 0.1,
+      "Electricity CO2 Source": "Hydro-heavy electricity mix estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.25,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Chile",
+      "Electricity CO2 (kgCO2/kWh)": 0.3,
+      "Electricity CO2 Source": "Mixed fossil + renewables electricity estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Colombia",
+      "Electricity CO2 (kgCO2/kWh)": 0.15,
+      "Electricity CO2 Source": "Hydro-heavy electricity mix estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.06,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Ecuador",
+      "Electricity CO2 (kgCO2/kWh)": 0.12,
+      "Electricity CO2 Source": "Hydro-heavy electricity mix estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.25,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.1,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Guyana",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Oil/diesel-heavy grid estimate; verify locally",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Paraguay",
+      "Electricity CO2 (kgCO2/kWh)": 0.02,
+      "Electricity CO2 Source": "Hydro-dominant electricity estimate; Itaipu/Yacyreta hydro context",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.21,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.06,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Peru",
+      "Electricity CO2 (kgCO2/kWh)": 0.25,
+      "Electricity CO2 Source": "Hydro + gas electricity mix estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Suriname",
+      "Electricity CO2 (kgCO2/kWh)": 0.35,
+      "Electricity CO2 Source": "Hydro + fossil mixed estimate; verify locally",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Uruguay",
+      "Electricity CO2 (kgCO2/kWh)": 0.05,
+      "Electricity CO2 Source": "Renewable-heavy electricity mix estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.2,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Venezuela",
+      "Electricity CO2 (kgCO2/kWh)": 0.2,
+      "Electricity CO2 Source": "Hydro + fossil mixed estimate; verify locally",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.28,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.02,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ],
+  "Africa": [
+    {
+      "Country": "Algeria",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Ember / OWID national electricity mix estimate 2024-2025",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.04,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Angola",
+      "Electricity CO2 (kgCO2/kWh)": 0.2,
+      "Electricity CO2 Source": "Hydro-dominant estimate; Ember/OWID approximation",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.28,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.03,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Benin",
+      "Electricity CO2 (kgCO2/kWh)": 0.4,
+      "Electricity CO2 Source": "OWID / imported power estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Botswana",
+      "Electricity CO2 (kgCO2/kWh)": 0.75,
+      "Electricity CO2 Source": "Coal-dominant electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.42,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.1,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Cameroon",
+      "Electricity CO2 (kgCO2/kWh)": 0.15,
+      "Electricity CO2 Source": "Hydro-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.26,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.09,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Congo (DRC)",
+      "Electricity CO2 (kgCO2/kWh)": 0.05,
+      "Electricity CO2 Source": "Hydro-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.08,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Egypt",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Gas-dominant electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.05,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Ethiopia",
+      "Electricity CO2 (kgCO2/kWh)": 0.03,
+      "Electricity CO2 Source": "Renewable/hydro-heavy estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.22,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.02,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Ghana",
+      "Electricity CO2 (kgCO2/kWh)": 0.3,
+      "Electricity CO2 Source": "Gas + hydro electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.31,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Ivory Coast",
+      "Electricity CO2 (kgCO2/kWh)": 0.28,
+      "Electricity CO2 Source": "Gas + hydro electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Kenya",
+      "Electricity CO2 (kgCO2/kWh)": 0.1,
+      "Electricity CO2 Source": "Geothermal + renewable estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.25,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.16,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Libya",
+      "Electricity CO2 (kgCO2/kWh)": 0.7,
+      "Electricity CO2 Source": "Oil/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.04,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Morocco",
+      "Electricity CO2 (kgCO2/kWh)": 0.6,
+      "Electricity CO2 Source": "Coal/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.13,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Mozambique",
+      "Electricity CO2 (kgCO2/kWh)": 0.08,
+      "Electricity CO2 Source": "Hydro-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.08,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Namibia",
+      "Electricity CO2 (kgCO2/kWh)": 0.35,
+      "Electricity CO2 Source": "Imported + fossil mix estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Nigeria",
+      "Electricity CO2 (kgCO2/kWh)": 0.5,
+      "Electricity CO2 Source": "Gas + diesel-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.37,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Senegal",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Oil/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.17,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "South Africa",
+      "Electricity CO2 (kgCO2/kWh)": 0.82,
+      "Electricity CO2 Source": "Coal-heavy Eskom electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.44,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.09,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Sudan",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Oil-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.06,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Tanzania",
+      "Electricity CO2 (kgCO2/kWh)": 0.25,
+      "Electricity CO2 Source": "Mixed hydro/gas estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.09,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Tunisia",
+      "Electricity CO2 (kgCO2/kWh)": 0.5,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.37,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.09,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Uganda",
+      "Electricity CO2 (kgCO2/kWh)": 0.07,
+      "Electricity CO2 Source": "Hydro-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Zambia",
+      "Electricity CO2 (kgCO2/kWh)": 0.06,
+      "Electricity CO2 Source": "Hydro-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.23,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Zimbabwe",
+      "Electricity CO2 (kgCO2/kWh)": 0.6,
+      "Electricity CO2 Source": "Coal-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.12,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ],
+  "Asia": [
+    {
+      "Country": "China",
+      "Electricity CO2 (kgCO2/kWh)": 0.58,
+      "Electricity CO2 Source": "Ember / OWID electricity mix estimate 2024-2025",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Japan",
+      "Electricity CO2 (kgCO2/kWh)": 0.43,
+      "Electricity CO2 Source": "Ember / OWID electricity mix estimate 2024-2025",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.32,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.24,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "South Korea",
+      "Electricity CO2 (kgCO2/kWh)": 0.46,
+      "Electricity CO2 Source": "Ember / OWID electricity mix estimate 2024-2025",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.1,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "India",
+      "Electricity CO2 (kgCO2/kWh)": 0.7,
+      "Electricity CO2 Source": "Coal-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.42,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Indonesia",
+      "Electricity CO2 (kgCO2/kWh)": 0.65,
+      "Electricity CO2 Source": "Coal/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.09,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Malaysia",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Gas/coal electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.1,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Singapore",
+      "Electricity CO2 (kgCO2/kWh)": 0.39,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.31,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.2,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Thailand",
+      "Electricity CO2 (kgCO2/kWh)": 0.5,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Vietnam",
+      "Electricity CO2 (kgCO2/kWh)": 0.52,
+      "Electricity CO2 Source": "Coal-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.37,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Philippines",
+      "Electricity CO2 (kgCO2/kWh)": 0.58,
+      "Electricity CO2 Source": "Coal/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.18,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Taiwan",
+      "Electricity CO2 (kgCO2/kWh)": 0.49,
+      "Electricity CO2 Source": "Gas/coal electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.11,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Hong Kong",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.17,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Pakistan",
+      "Electricity CO2 (kgCO2/kWh)": 0.43,
+      "Electricity CO2 Source": "Mixed fossil/hydro estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.08,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Bangladesh",
+      "Electricity CO2 (kgCO2/kWh)": 0.58,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.08,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Sri Lanka",
+      "Electricity CO2 (kgCO2/kWh)": 0.3,
+      "Electricity CO2 Source": "Hydro + fossil mix estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.3,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.09,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Nepal",
+      "Electricity CO2 (kgCO2/kWh)": 0.03,
+      "Electricity CO2 Source": "Hydro-heavy estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.22,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Kazakhstan",
+      "Electricity CO2 (kgCO2/kWh)": 0.75,
+      "Electricity CO2 Source": "Coal-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.43,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.06,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Uzbekistan",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.05,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Saudi Arabia",
+      "Electricity CO2 (kgCO2/kWh)": 0.65,
+      "Electricity CO2 Source": "Oil/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.05,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "United Arab Emirates",
+      "Electricity CO2 (kgCO2/kWh)": 0.4,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Qatar",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.04,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Israel",
+      "Electricity CO2 (kgCO2/kWh)": 0.5,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Turkey",
+      "Electricity CO2 (kgCO2/kWh)": 0.43,
+      "Electricity CO2 Source": "Coal/gas electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ],
+  "Oceania": [
+    {
+      "Country": "Australia",
+      "Electricity CO2 (kgCO2/kWh)": 0.6,
+      "Electricity CO2 Source": "Ember / OWID electricity mix estimate 2024-2025",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from Air Liquide methodology + national grid mix",
+      "Electricity Price (€/kWh)": 0.22,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "New Zealand",
+      "Electricity CO2 (kgCO2/kWh)": 0.08,
+      "Electricity CO2 Source": "Hydro/geothermal-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.24,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.19,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Papua New Guinea",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Diesel/hydro mixed estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.17,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Fiji",
+      "Electricity CO2 (kgCO2/kWh)": 0.25,
+      "Electricity CO2 Source": "Hydro + diesel mixed estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.29,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.21,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Solomon Islands",
+      "Electricity CO2 (kgCO2/kWh)": 0.65,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.28,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Vanuatu",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.3,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Samoa",
+      "Electricity CO2 (kgCO2/kWh)": 0.45,
+      "Electricity CO2 Source": "Diesel + renewable island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.35,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.27,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Tonga",
+      "Electricity CO2 (kgCO2/kWh)": 0.6,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.29,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Kiribati",
+      "Electricity CO2 (kgCO2/kWh)": 0.7,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.41,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.32,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Micronesia",
+      "Electricity CO2 (kgCO2/kWh)": 0.68,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.3,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Palau",
+      "Electricity CO2 (kgCO2/kWh)": 0.6,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.39,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.3,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Marshall Islands",
+      "Electricity CO2 (kgCO2/kWh)": 0.72,
+      "Electricity CO2 Source": "Diesel-heavy island grid estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.42,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.32,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ]
+}
