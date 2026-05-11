@@ -116,3 +116,18 @@ Integrated:
 - Middle East page included as middle-east.html
 
 Upload all files and folders at the root of the GitHub Pages repository.
+
+SEPARATED REGIONS UPDATE:
+- asia.html and middle-east.html are now distinct files.
+- asia.html excludes Middle East countries where present.
+- middle-east.html contains only Middle East countries.
+- Middle East countries loaded: 5
+
+PDF REPORT UPDATE:
+- Removed 'Download V10 Excel'
+- Added 'Download PDF Report'
+- Browser-generated printable PDF report with:
+  * country
+  * costs
+  * CO2
+  * annual savings

@@ -1348,51 +1348,6 @@
       "LN2 Footprint Source": "Estimated from national grid mix",
       "Electricity Price (€/kWh)": 0.05,
       "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
-    },
-    {
-      "Country": "Saudi Arabia",
-      "Electricity CO2 (kgCO2/kWh)": 0.65,
-      "Electricity CO2 Source": "Oil/gas-heavy electricity estimate",
-      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
-      "LN2 Footprint Source": "Estimated from national grid mix",
-      "Electricity Price (€/kWh)": 0.05,
-      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
-    },
-    {
-      "Country": "United Arab Emirates",
-      "Electricity CO2 (kgCO2/kWh)": 0.4,
-      "Electricity CO2 Source": "Gas-heavy electricity estimate",
-      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
-      "LN2 Footprint Source": "Estimated from national grid mix",
-      "Electricity Price (€/kWh)": 0.07,
-      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
-    },
-    {
-      "Country": "Qatar",
-      "Electricity CO2 (kgCO2/kWh)": 0.55,
-      "Electricity CO2 Source": "Gas-heavy electricity estimate",
-      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
-      "LN2 Footprint Source": "Estimated from national grid mix",
-      "Electricity Price (€/kWh)": 0.04,
-      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
-    },
-    {
-      "Country": "Israel",
-      "Electricity CO2 (kgCO2/kWh)": 0.5,
-      "Electricity CO2 Source": "Gas-heavy electricity estimate",
-      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
-      "LN2 Footprint Source": "Estimated from national grid mix",
-      "Electricity Price (€/kWh)": 0.15,
-      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
-    },
-    {
-      "Country": "Turkey",
-      "Electricity CO2 (kgCO2/kWh)": 0.43,
-      "Electricity CO2 Source": "Coal/gas electricity estimate",
-      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
-      "LN2 Footprint Source": "Estimated from national grid mix",
-      "Electricity Price (€/kWh)": 0.07,
-      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
     }
   ],
   "Oceania": [
@@ -1502,6 +1457,53 @@
       "Estimated LN2 footprint (kgCO2e/L)": 0.42,
       "LN2 Footprint Source": "Estimated from national grid mix",
       "Electricity Price (€/kWh)": 0.32,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    }
+  ],
+  "Middle East": [
+    {
+      "Country": "Saudi Arabia",
+      "Electricity CO2 (kgCO2/kWh)": 0.65,
+      "Electricity CO2 Source": "Oil/gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.4,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.05,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "United Arab Emirates",
+      "Electricity CO2 (kgCO2/kWh)": 0.4,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.33,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Qatar",
+      "Electricity CO2 (kgCO2/kWh)": 0.55,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.38,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.04,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Israel",
+      "Electricity CO2 (kgCO2/kWh)": 0.5,
+      "Electricity CO2 Source": "Gas-heavy electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.36,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.15,
+      "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
+    },
+    {
+      "Country": "Turkey",
+      "Electricity CO2 (kgCO2/kWh)": 0.43,
+      "Electricity CO2 Source": "Coal/gas electricity estimate",
+      "Estimated LN2 footprint (kgCO2e/L)": 0.34,
+      "LN2 Footprint Source": "Estimated from national grid mix",
+      "Electricity Price (€/kWh)": 0.07,
       "Electricity Price Source": "V10 recalibrated residential electricity price; Eurostat/EIA/GlobalPetrolPrices + national references"
     }
   ]
